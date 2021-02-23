@@ -22,7 +22,7 @@
 }
 
 .logocontent img {
-    width: 100%;
+    width: 70%;
     height: 50%;
     object-fit: contain;
 }
@@ -130,9 +130,10 @@
 
 @media (max-width: 592px) {
     .features-item {
+      margin-top: -10rem;
       flex: 1;
       margin-bottom: 45px;
-      margin-left: 10rem;
+      margin-left: -10rem;
     }
   }
   
@@ -160,7 +161,7 @@
   }
   
   .features-item h4 {
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 22px;
     color: white;
     margin-bottom: 25px;
