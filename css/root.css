@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+.tritxnbtn {
+    text-decoration:ivory;
+    padding: 10px 10px;
+    border-radius: 50px 50px;
+    margin-left: 10px;
+}
+
+.tritxnlogin {
+    font-family: Montserrat;
+    color: white;
+    background-color: #99a5ff;
+}
+
+.tritxnSection {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.tritxnContainer {
+    padding: 0px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 425px) {
+    .navbar-btns__links {
+        display: none;
+    }
+}
